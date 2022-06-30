@@ -88,9 +88,13 @@
               "src/assets"
             ],
             "styles": [
+              "../node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           }
         },
         "lint": {
@@ -119,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "piss"
+    }
+  },
+  "defaultProject": "piss",
+  "cli": {
+    "analytics": "00007161-d437-4bef-8c86-713171575b05"
+  }
 }
